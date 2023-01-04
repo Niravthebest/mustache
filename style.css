@@ -1,0 +1,20 @@
+h1 {
+    font-size: 35px !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn-success:hover {
+    background-color:red;
+}
+
+canvas {
+    animation-name: CoolStuff;
+    animation-duration:  4s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes CoolStuff {
+    from {box-shadow: 1px 1px 38px rgb(0, 255, 55);}
+    to {box-shadow: 1px 1px 38px rgb(0, 119, 255);}
+}
